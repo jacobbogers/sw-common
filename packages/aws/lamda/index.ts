@@ -9,6 +9,7 @@ export async function handler(
   for (const message of event.Records) {
     await processMessageAsync(message);
   }
+  crypto.randomUUID();
   console.info("done");
 };
 
