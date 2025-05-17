@@ -23,3 +23,4 @@ const proxy = new Proxy(TargetClass, handler);
 const instance = new proxy(10); // Logs: Creating new instance withfunction (x: number) { this.value = x; } args: 10
 //console.log(instance.showValue()); // 10
 console.log(instance.hello);
+

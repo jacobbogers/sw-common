@@ -1,0 +1,21 @@
+{
+  "name": "happy-dom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "happy-dom": "^17.4.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
