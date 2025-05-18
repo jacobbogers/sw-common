@@ -1,0 +1,6 @@
+@supports (scrollbar-width: auto) {
+    html:not(.feature-scrollbars-off) * {
+        scrollbar-width: thin;
+        scrollbar-color: var(--scrollbar-thumb-color) rgba(0, 0, 0, 0);
+    }
+}

@@ -1,3 +1,23 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+
+@layer utilities {
+    :lang(en) {
+        quotes: "\201c" "\201d" "\2018" "\2019";
+    }
+
+
+}
+
+body {
+    @apply overflow-hidden;
+}
+
+html,
+body,
+.app-root,
+.content-container {
+    block-size: 100%;
+}
