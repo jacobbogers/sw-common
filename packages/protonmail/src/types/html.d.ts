@@ -1,3 +1,4 @@
+// any xyz.d.ts under /src will be added by tsconfig because it is accessible via "include"
 declare namespace svelteHTML {
     interface IntrinsicElements {
         meta: {

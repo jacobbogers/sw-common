@@ -1,2 +1,5 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<svelte:head>
+  <meta http-equiv="x-dns-prefetch-control" content="off" />
+  <!-- this is for SSO, make sure same page gets same content-->
+  <link rel="canonical" href="https://account.proton.me/mail/signup" />
+</svelte:head>
