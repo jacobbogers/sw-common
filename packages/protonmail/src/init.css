@@ -1,0 +1,15 @@
+::selection {
+    background-color: var(--selection-background-color);
+    color: var(--selection-text-color);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: var(--background-norm);
+    min-block-size: 100%;
+}

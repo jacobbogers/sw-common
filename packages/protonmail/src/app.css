@@ -1,23 +1,11 @@
-@import 'tailwindcss';
-@plugin '@tailwindcss/forms';
-@plugin '@tailwindcss/typography';
-
-
-@layer utilities {
-    :lang(en) {
-        quotes: "\201c" "\201d" "\2018" "\2019";
-    }
-
-
-}
-
-body {
-    @apply overflow-hidden;
-}
-
-html,
-body,
-.app-root,
-.content-container {
-    block-size: 100%;
-}
+@import './reset.css';
+@import './theme.css';
+@import './media.css';
+@import './include-media.css';
+@import './scroll.css';
+@import './layout.css';
+@import './scroll-bar.css';
+@import './responsive.css';
+@import './circle-loader.css';
+@import './typo.css';
+@import './init.css';

@@ -1,0 +1,27 @@
+.relative {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.h-full {
+    block-size: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.overflow-auto {
+    overflow: auto;
+}

@@ -1,0 +1,17 @@
+body {
+    color: var(--text-norm);
+    line-height: 1.4285714286;
+    font-size: .875em;
+}
+
+html {
+    font-size: calc(var(--setting-font-size) * 7.1428571429%);
+}
+
+@supports (font-variation-settings: normal) {
+
+    html,
+    .apply-font {
+        font-family: var(--setting-font-family, var(--optional-font-family, "InterVariable", system-ui, sans-serif));
+    }
+}

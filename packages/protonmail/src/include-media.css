@@ -1,0 +1,11 @@
+@supports selector(::-webkit-scrollbar) {
+    html:not(.feature-scrollbars-off) *::-webkit-scrollbar-corner {
+        visibility: hidden;
+    }
+}
+
+@supports selector(::-webkit-scrollbar) {
+    html:not(.feature-scrollbars-off) *::-webkit-scrollbar-corner {
+        visibility: hidden;
+    }
+}
