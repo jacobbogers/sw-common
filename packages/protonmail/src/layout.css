@@ -7,3 +7,23 @@
 :root {
     --border-radius-4xl: calc(4 * var(--border-radius) * var(--1px));
 }
+
+.sign-layout-main-header>* {
+    min-block-size: 0;
+    min-inline-size: 0;
+}
+
+.sign-layout-main-header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 28.135em) {
+    .sign-layout-main-header {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(auto, 100%));
+        justify-content: space-between;
+    }
+}

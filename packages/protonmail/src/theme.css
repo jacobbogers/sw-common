@@ -99,16 +99,6 @@
     --optional-text-promotion-bw-button: var(--text-invert);
 }
 
-/* fonts */
-/* fonts */
-/* fonts */
-
-:root {
-    --font-weight-normal: 400;
-    --font-weight-semibold: 600;
-    --font-weight-bold: 700;
-}
-
 :root {
     --border-radius-4xl: calc(4 * var(--border-radius) * var(--1px));
 }
