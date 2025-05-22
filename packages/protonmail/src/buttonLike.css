@@ -1,0 +1,41 @@
+.button-small {
+    --padding-block: .2142857143em;
+    --padding-inline: .7857142857em;
+}
+
+.button-ghost-norm {
+    --button-default-background-color: var(--interaction-default);
+    --button-hover-background-color: var(--interaction-default-hover);
+    --button-active-background-color: var(--interaction-default-active);
+    --button-default-text-color: var(--interaction-norm-major-1);
+    --button-hover-text-color: var(--interaction-norm-major-2);
+    --button-active-text-color: var(--interaction-norm-major-3);
+}
+
+.button,
+.button:hover,
+.button:focus,
+.button:focus-within,
+.button:active {
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    padding-block: var(--padding-block);
+    padding-inline: var(--padding-inline);
+    border: 1px solid var(--button-default-border-color, transparent);
+    border-radius: var(--border-radius-md);
+    outline: none;
+    background-color: var(--button-default-background-color, transparent);
+    color: var(--button-default-text-color, inherit);
+    text-align: center;
+    cursor: pointer;
+    transition: .15s cubic-bezier(.22, 1, .36, 1), background-position 0s;
+}
+
+@supports selector(:focus-visible:has(a, b)) {
+    .button {
+        outline: unset;
+    }
+}

@@ -23,3 +23,9 @@
 .rounded {
     border-radius: var(--border-radius-md);
 }
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}

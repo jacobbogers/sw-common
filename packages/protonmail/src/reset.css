@@ -20,3 +20,36 @@ nav,
 section {
     display: block;
 }
+
+button,
+progress {
+    border: 0;
+}
+
+label,
+button,
+input,
+select {
+    color: currentcolor;
+    vertical-align: middle;
+}
+
+label,
+button,
+input[type=submit],
+input[type=button],
+input[type=reset] {
+    cursor: pointer;
+}
+
+input,
+select,
+textarea,
+optgroup,
+button {
+    background: #0000;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    -webkit-appearance: none;
+}

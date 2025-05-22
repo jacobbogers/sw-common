@@ -1,9 +1,9 @@
-.relative {
-    position: relative;
+.hidden {
+    display: none;
 }
 
-.flex {
-    display: flex;
+.relative {
+    position: relative;
 }
 
 .flex-column {
@@ -16,9 +16,7 @@
     flex-wrap: wrap;
 }
 
-.flex-nowrap {
-    flex-wrap: nowrap;
-}
+
 
 .shrink-0 {
     flex-shrink: 0;
@@ -48,9 +46,37 @@
     margin-block-end: .5rem;
 }
 
+.items-center {
+    align-items: center;
+}
+
 .\*\:min-size-auto>* {
     min-block-size: auto;
     min-inline-size: auto;
+}
+
+.flex,
+.modal-close {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.mr-custom {
+    margin-inline-end: var(--mr-custom);
+}
+
+.mr-2 {
+    margin-inline-end: .5rem;
+}
+
+@media (min-width: 28.135em) {
+    .sm\:inline-block {
+        display: inline-block;
+    }
 }
 
 :root {
