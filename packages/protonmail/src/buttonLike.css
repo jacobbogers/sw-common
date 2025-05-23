@@ -32,6 +32,14 @@
     text-align: center;
     cursor: pointer;
     transition: .15s cubic-bezier(.22, 1, .36, 1), background-position 0s;
+
+    &:hover,
+    &.is-hover {
+        border-color: var(--button-hover-border-color, transparent);
+        background-color: var(--button-hover-background-color, transparent);
+        color: var(--button-hover-text-color, inherit);
+        opacity: 1;
+    }
 }
 
 @supports selector(:focus-visible:has(a, b)) {

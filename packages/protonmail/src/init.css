@@ -30,3 +30,12 @@ body {
     --interaction-weak-hover: var(--interaction-weak-major-1);
     --interaction-weak-active: var(--interaction-weak-major-2);
 }
+
+:root {
+    --1px: .0625rem;
+    --border-radius-sm: calc(.5 * var(--border-radius) * var(--1px));
+    --border-radius-md: calc(var(--border-radius) * var(--1px));
+    --border-radius-lg: calc(1.5 * var(--border-radius) * var(--1px));
+    --border-radius-xl: calc(2 * var(--border-radius) * var(--1px));
+    --border-radius-full: 9999em;
+}

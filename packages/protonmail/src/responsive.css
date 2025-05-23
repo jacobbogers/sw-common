@@ -113,6 +113,10 @@
     --space-auto: auto;
 }
 
+.justify-space-between {
+    justify-content: space-between;
+}
+
 @media (min-width: 56.885em) {
     .lg\:px-12 {
         padding-inline: 3rem;
@@ -140,5 +144,23 @@
 @media (min-width: 28.135em) {
     .sm\:gap-4 {
         gap: 1rem;
+    }
+}
+
+@media (min-width: 28.135em) {
+    .sm\:inline-block {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 28.135em) {
+    .sm\:px-6 {
+        padding-inline: 1.5rem;
+    }
+}
+
+@media (min-width: 28.135em) {
+    .sm\:shadow-lifted {
+        box-shadow: var(--shadow-lifted-offset) rgb(var(--shadow-color, var(--shadow-default-color)) / var(--shadow-lifted-opacity));
     }
 }

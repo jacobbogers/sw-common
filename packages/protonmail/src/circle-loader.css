@@ -10,3 +10,9 @@ figure {
     margin: 0;
     padding: 0;
 }
+
+@media (min-width: 28.135em) {
+    .sm\:p-11 {
+        padding: 2.75rem;
+    }
+}

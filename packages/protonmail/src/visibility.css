@@ -1,0 +1,15 @@
+.invisible,
+.wizard-container--no-text-displayed .wizard-item[aria-current=step] .wizard-item-inner,
+.sr-only,
+.radio,
+.app-infos-compact .app-infos-name {
+    position: absolute;
+    inset-block-start: 0;
+    block-size: 1px;
+    inline-size: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}

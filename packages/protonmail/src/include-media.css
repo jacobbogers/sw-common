@@ -29,3 +29,7 @@
 *:after {
     box-sizing: inherit;
 }
+
+.shadow-color-primary {
+    --shadow-color: var(--shadow-primary-color);
+}
