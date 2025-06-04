@@ -32,3 +32,15 @@
     min-block-size: 0;
     min-inline-size: 0;
 }
+
+@media (min-width: 42.51em) {
+    .sign-layout {
+        min-block-size: 24.375rem;
+    }
+}
+
+.sign-layout {
+    transform: translateZ(0);
+    transition: max-inline-size .15s cubic-bezier(.42, 0, 1, 1);
+    border-radius: var(--border-radius-lg);
+}

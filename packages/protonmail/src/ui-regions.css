@@ -1,0 +1,5 @@
+.ui-standard,
+.ui-prominent {
+    background-color: var(--background-norm);
+    color: var(--text-norm);
+}

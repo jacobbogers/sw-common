@@ -38,6 +38,22 @@
     padding-inline: 1.5rem;
 }
 
+.pb-6 {
+    padding-block-end: 1.5rem;
+}
+
+.pt-1 {
+    padding-block-start: .25rem;
+}
+
+.mx-auto {
+    margin-inline: auto;
+}
+
+.max-w-custom {
+    max-inline-size: var(--max-w-custom);
+}
+
 .py-3 {
     padding-block: .75rem;
 }
@@ -61,9 +77,7 @@
     flex-wrap: wrap;
 }
 
-.flex-nowrap {
-    flex-wrap: nowrap;
-}
+
 
 .mr-custom {
     margin-inline-end: var(--mr-custom);
@@ -71,6 +85,18 @@
 
 .mr-2 {
     margin-inline-end: .5rem;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.w-full {
+    inline-size: 100%;
 }
 
 @media (min-width: 28.135em) {
@@ -113,9 +139,7 @@
     --space-auto: auto;
 }
 
-.justify-space-between {
-    justify-content: space-between;
-}
+
 
 @media (min-width: 56.885em) {
     .lg\:px-12 {

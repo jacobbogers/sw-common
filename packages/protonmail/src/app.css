@@ -2,18 +2,22 @@
 @import './optionals.css';
 @import './theme.css';
 @import './init.css';
-@import './media.css';
+
 @import './scroll.css';
 @import './layout.css';
 @import './font.css';
+@import './include-media.css';
+@import './ui-regions.css';
+@import './responsive.css';
 @import './scroll-bar.css';
 
 @import './typo.css';
 @import './buttonLike.css';
 @import './colors.css';
 @import './interactive.css';
-@import './responsive.css';
+
 @import './circle-loader.css';
-@import './include-media.css';
+
 @import './visibility.css';
 @import './icons.css';
+@import './media.css';
