@@ -12,6 +12,7 @@
 @import './field-two.css';
 @import './checkbox.css';
 @import './include-media.css';
+@import './buttonLike.css';
 @import './responsive.css';
 @import './config.css';
 @import './position.css';
@@ -21,7 +22,7 @@
 @import './scroll-bar.css';
 
 @import './typo.css';
-@import './buttonLike.css';
+
 @import './colors.css';
 @import './interactive.css';
 
