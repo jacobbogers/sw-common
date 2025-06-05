@@ -44,3 +44,13 @@
     transition: max-inline-size .15s cubic-bezier(.42, 0, 1, 1);
     border-radius: var(--border-radius-lg);
 }
+
+.sign-layout h1,
+.sign-layout .h1 {
+    font-weight: var(--font-weight-bold);
+}
+
+.sign-layout-title {
+    font-size: 1.75rem;
+    font-weight: 400;
+}

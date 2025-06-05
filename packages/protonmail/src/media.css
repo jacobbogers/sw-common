@@ -5,3 +5,11 @@
         }
     }
 }
+
+@media (hover: hover) and (pointer: fine) {
+    @supports selector(::-webkit-scrollbar) {
+        html:not(.feature-scrollbars-off) body *:not(:hover, :focus, :focus-within)::-webkit-scrollbar-thumb {
+            visibility: hidden;
+        }
+    }
+}

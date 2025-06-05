@@ -2,3 +2,7 @@
 .text-nowrap {
     white-space: nowrap;
 }
+
+.color-weak {
+    color: var(--text-weak);
+}

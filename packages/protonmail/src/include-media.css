@@ -24,12 +24,10 @@
     border-radius: var(--border-radius-md);
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
 .shadow-color-primary {
     --shadow-color: var(--shadow-primary-color);
+}
+
+.items-end {
+    align-items: flex-end;
 }

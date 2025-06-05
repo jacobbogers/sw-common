@@ -1,0 +1,51 @@
+.field-two-container {
+    position: relative;
+    display: block;
+    inline-size: 100%;
+    max-inline-size: 100%;
+    cursor: default;
+}
+
+.field-two-label-container {
+    font-weight: var(--font-weight-semibold);
+    margin-block-end: .25rem;
+}
+
+.field-two-label {
+    cursor: pointer;
+}
+
+.input-element {
+    min-block-size: 2.125rem;
+    padding-block: .5em;
+    padding-inline: 1.1428571429em;
+    border-radius: var(--border-radius-md);
+    background: none;
+    color: inherit;
+    outline: none;
+    filter: none;
+}
+
+.field-two--bigger .input-element,
+.field-two--bigger .select {
+    padding-block: .6875rem;
+}
+
+.input {
+    border-radius: var(--border-radius-md);
+    border: 1px solid var(--field-norm);
+    background-color: var(--field-background-color);
+    color: var(--field-text-color);
+    transition: .15s cubic-bezier(.22, 1, .36, 1), visibility 0s;
+}
+
+.field-two-assist {
+    margin-block-start: .25rem;
+    font-size: .75rem;
+    color: var(--text-weak);
+}
+
+.field-two-assist:empty:before {
+    content: " ";
+    white-space: pre;
+}

@@ -26,13 +26,6 @@ progress {
     border: 0;
 }
 
-label,
-button,
-input,
-select {
-    color: currentcolor;
-    vertical-align: middle;
-}
 
 label,
 button,
@@ -40,6 +33,14 @@ input[type=submit],
 input[type=button],
 input[type=reset] {
     cursor: pointer;
+}
+
+label,
+button,
+input,
+select {
+    color: currentcolor;
+    vertical-align: middle;
 }
 
 input,
