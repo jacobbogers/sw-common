@@ -37,6 +37,14 @@
     background-color: var(--field-background-color);
     color: var(--field-text-color);
     transition: .15s cubic-bezier(.22, 1, .36, 1), visibility 0s;
+
+    &.focus,
+    &:not(.disabled):focus-within {
+        border-color: var(--focus-outline);
+        background-color: var(--field-focus-background-color);
+        color: var(--field-focus-text-color);
+        box-shadow: 0 0 0 0.1875rem var(--focus-ring);
+    }
 }
 
 .field-two-assist {

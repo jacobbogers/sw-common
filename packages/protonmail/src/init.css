@@ -9,10 +9,16 @@
     box-sizing: inherit;
 }
 
+html {
+    box-sizing: border-box;
+    overscroll-behavior: none;
+}
+
 body {
     background: var(--background-norm);
     min-block-size: 100%;
 }
+
 
 table,
 img,

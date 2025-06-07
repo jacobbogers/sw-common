@@ -10,7 +10,7 @@
 
 @import './ui-regions.css';
 @import './field-two.css';
-@import './checkbox.css';
+
 @import './include-media.css';
 @import './buttonLike.css';
 @import './responsive.css';
@@ -20,7 +20,7 @@
 
 
 @import './scroll-bar.css';
-
+@import './checkbox.css';
 @import './typo.css';
 
 @import './colors.css';
@@ -32,3 +32,5 @@
 @import './icons.css';
 @import './media.css';
 @import './structure.css';
+
+@import './radio.css';

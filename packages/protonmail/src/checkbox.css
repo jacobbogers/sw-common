@@ -1,3 +1,35 @@
 .checkbox-container {
     display: inline-flex;
 }
+
+.checkbox-input {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    inline-size: 100%;
+    block-size: 100%;
+    z-index: 1;
+    opacity: 0;
+    margin: 0;
+}
+
+.checkbox-fakecheck,
+.radio-fakeradio {
+    display: inline-flex;
+    min-inline-size: 1.25rem;
+    inline-size: 1.25rem;
+    block-size: 1.25rem;
+    margin-block: auto;
+    border-radius: var(--border-radius-sm);
+    border: 1px solid var(--field-norm);
+    background-color: var(--field-background-color);
+    color: var(--field-text-color);
+    transition: .15s cubic-bezier(.33, 1, .68, 1);
+}
+
+.checkbox-input:checked+.checkbox-fakecheck,
+.checkbox-input:checked+.radio-fakeradio {
+    border-color: var(--interaction-norm);
+    background-color: var(--interaction-norm);
+    color: var(--interaction-norm-contrast);
+}

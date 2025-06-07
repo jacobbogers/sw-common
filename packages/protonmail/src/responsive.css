@@ -97,6 +97,7 @@
     flex-wrap: wrap;
 }
 
+
 .mr-custom {
     margin-inline-end: var(--mr-custom);
 }
@@ -223,4 +224,8 @@
     .sm\:inline-block {
         display: inline-block;
     }
+}
+
+.inline-block {
+    display: inline-block;
 }

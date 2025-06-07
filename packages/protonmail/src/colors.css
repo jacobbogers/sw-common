@@ -6,3 +6,7 @@
 .color-weak {
     color: var(--text-weak);
 }
+
+.color-inherit {
+    color: inherit;
+}
