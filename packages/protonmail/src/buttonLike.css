@@ -12,14 +12,6 @@
     --button-active-text-color: var(--interaction-norm-major-3);
 }
 
-.button,
-.button:hover,
-.button:focus,
-.button:focus-within,
-.button:active {
-    text-decoration: none;
-}
-
 .button {
     display: inline-block;
     padding-block: var(--padding-block);
@@ -46,4 +38,31 @@
     .button {
         outline: unset;
     }
+}
+
+.button-solid-norm {
+    --button-default-background-color: var(--interaction-norm);
+    --button-hover-background-color: var(--interaction-norm-major-1);
+    --button-active-background-color: var(--interaction-norm-major-2);
+    --button-default-text-color: var(--interaction-norm-contrast);
+    --button-hover-text-color: var(--interaction-norm-contrast);
+    --button-active-text-color: var(--interaction-norm-contrast);
+    --focus-outline: var(--interaction-norm-major-2);
+}
+
+
+
+.button,
+.button:hover,
+.button:focus,
+.button:focus-within,
+.button:active {
+    text-decoration: none;
+}
+
+.button-large {
+    --padding-block: .5625em;
+    --padding-inline: 1.1875em;
+    font-size: 1.1428571429em;
+    line-height: 1.5;
 }

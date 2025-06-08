@@ -54,3 +54,7 @@
     font-size: 1.75rem;
     font-weight: 400;
 }
+
+.signup-link:not(.language-dropdown) {
+    text-decoration: underline;
+}

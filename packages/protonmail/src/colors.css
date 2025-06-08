@@ -10,3 +10,7 @@
 .color-inherit {
     color: inherit;
 }
+
+.color-primary {
+    color: var(--primary);
+}

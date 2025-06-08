@@ -58,3 +58,20 @@ svg {
     --border-radius-xl: calc(2 * var(--border-radius) * var(--1px));
     --border-radius-full: 9999em;
 }
+
+a:hover,
+.link:hover,
+a:focus,
+.link:focus {
+    color: var(--link-hover);
+    text-decoration: none;
+}
+
+a,
+.link {
+    color: var(--link-norm);
+    text-decoration: underline;
+    -webkit-text-decoration-skip: ink;
+    text-decoration-skip-ink: auto;
+    cursor: pointer;
+}

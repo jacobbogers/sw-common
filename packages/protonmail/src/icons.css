@@ -25,3 +25,8 @@
     inline-size: 1rem;
     block-size: 1rem;
 }
+
+.icon-size-7 {
+    inline-size: 1.75rem;
+    block-size: 1.75rem;
+}

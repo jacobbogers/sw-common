@@ -1,11 +1,10 @@
-@import './reset.css';
 @import './optionals.css';
 @import './theme.css';
 
 
 @import './scroll.css';
 @import './layout.css';
-@import './init.css';
+
 @import './font.css';
 
 @import './ui-regions.css';
@@ -13,6 +12,10 @@
 
 @import './include-media.css';
 @import './buttonLike.css';
+@import './reset.css';
+@import './typo.css';
+@import './init.css';
+@import './colors.css';
 @import './responsive.css';
 @import './config.css';
 @import './position.css';
@@ -20,10 +23,11 @@
 
 
 @import './scroll-bar.css';
-@import './checkbox.css';
-@import './typo.css';
 
-@import './colors.css';
+@import './checkbox.css';
+
+
+
 @import './interactive.css';
 
 @import './circle-loader.css';

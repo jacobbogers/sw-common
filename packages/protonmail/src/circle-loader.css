@@ -11,6 +11,14 @@ figure {
     padding: 0;
 }
 
+.p-4 {
+    padding: 1rem;
+}
+
+.m-2 {
+    margin: .5rem;
+}
+
 .checkbox-fakecheck-img {
     margin: auto;
     transform: scale(0);
@@ -20,5 +28,11 @@ figure {
 @media (min-width: 28.135em) {
     .sm\:p-11 {
         padding: 2.75rem;
+    }
+}
+
+@media (min-width: 56.885em) {
+    .lg\:m-8 {
+        margin: 2rem;
     }
 }
