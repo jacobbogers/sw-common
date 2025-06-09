@@ -1,19 +1,15 @@
-<!--
-flex *:min-size-auto flex-nowrap flex-column h-full overflow-auto relative sign-layout-bg
--->
 <div
-  class="flex *:min-size-auto flex-nowrap flex-column h-full overflow-auto relative sign-layout-bg"
+  class="flx min-size-auto>* flx-nowrap flx-column lw-full overflow-auto relative sign-layout-bg"
 >
   <header
     class="sign-layout-main-header gap-1 sm:gap-4 px-6 py-3 lg:px-12 md:pt-5 md:pb-10 mb-2 md:mb-0"
   >
-    <div class="inline-flex flex-nowrap shrink-0">
-      <div class="md:hidden shrink-0"></div>
+    <div class="inline-flex flx-nowrap shrink-0">
       <a
         href="https://proton.me/mail"
         target="_blank"
         rel="noopener noreferrer nofollow"
-        class="shrink-0 relative interactive-pseudo-protrude rounded interactive--no-background"
+        class="shrink-0 relative rounded"
         ><svg
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -22,7 +18,6 @@ flex *:min-size-auto flex-nowrap flex-column h-full overflow-auto relative sign-
           height="36"
           fill="none"
           role="img"
-          class="logo with-wordmark"
           aria-labelledby="logo-2-title"
           style="inline-size: 8.375rem;"
           ><title id="logo-2-title">Proton Mail</title><path
@@ -83,10 +78,10 @@ flex *:min-size-auto flex-nowrap flex-column h-full overflow-auto relative sign-
         ></a
       >
     </div>
-    <div><div class="hidden md:block"></div></div>
+    <div></div>
     <div>
       <button
-        class="button button-small button-ghost-norm flex items-center flex-nowrap text-nowrap signup-link mr-custom language-dropdown"
+        class="button button-small button-ghost-norm flx items-center flx-nowrap text-nowrap signup-link mr-custom language-dropdown"
         aria-busy="false"
         data-testid="dropdown-button"
         type="button"
@@ -109,15 +104,13 @@ flex *:min-size-auto flex-nowrap flex-column h-full overflow-auto relative sign-
       >
     </div>
   </header>
-  <div
-    class="sign-layout-container p-0 sm:px-6 flex flex-nowrap flex-column justify-space-between"
-  >
+  <div class="p-0 sm:px-6 flx flx-nowrap flx-column justify-space-between">
     <main class="">
       <div
-        class="w-full max-w-custom relative sign-layout pt-1 pb-6 sm:p-11 ui-standard px-6 mx-auto sm:shadow-lifted shadow-color-primary"
+        class="lw-full max-w-custom relative sign-layout pt-1 pb-6 sm:p-11 ui-standard px-6 mx-auto sm:shadow-lifted shadow-color-primary"
         style="--max-w-custom: 30rem;"
       >
-        <div class="sign-layout-header mb-6">
+        <div class="mb-6">
           <div class=""><h1 class="sign-layout-title">Sign in</h1></div>
           <div class="mt-2 color-weak">To continue to Proton Mail</div>
         </div>
@@ -141,15 +134,15 @@ flex *:min-size-auto flex-nowrap flex-column h-full overflow-auto relative sign-
             <div class="field-two-container field-two--bigger">
               <label
                 for="username"
-                class="field-two-label-container flex justify-space-between flex-nowrap items-end gap-2"
+                class="field-two-label-container flx justify-space-between flx-nowrap items-end gap-2"
                 ><span class="field-two-label">Email or username</span></label
               >
               <div class="field-two-input-container relative">
                 <div
-                  class="input flex flex-nowrap items-stretch flex-1 relative"
+                  class="input flx flx-nowrap items-stretch flx-1 relative"
                   data-testid="input-root"
                 >
-                  <div class="flex flex-1">
+                  <div class="flx flx-wrap flx-1">
                     <input
                       autocomplete="username"
                       autocapitalize="off"
@@ -159,29 +152,29 @@ flex *:min-size-auto flex-nowrap flex-column h-full overflow-auto relative sign-
                       data-testid="input-input-element"
                       id="username"
                       aria-describedby="id-4"
-                      class="input-element w-full"
+                      class="input-element lw-full"
                       value="jkfbogers"
                     />
                   </div>
                 </div>
               </div>
               <div
-                class="field-two-assist flex flex-nowrap items-start"
+                class="field-two-assist flx flx-nowrap items-start"
                 id="id-4"
               ></div>
             </div>
             <div class="field-two-container field-two--bigger mt-2">
               <label
                 for="password"
-                class="field-two-label-container flex justify-space-between flex-nowrap items-end gap-2"
+                class="field-two-label-container flx justify-space-between flx-nowrap items-end gap-2"
                 ><span class="field-two-label">Password</span></label
               >
               <div class="field-two-input-container relative">
                 <div
-                  class="input flex flex-nowrap items-stretch flex-1 relative"
+                  class="input flx flx-nowrap items-stretch flx-1 relative"
                   data-testid="input-root"
                 >
-                  <div class="flex flex-1">
+                  <div class="flx flx-wrap flx-1">
                     <input
                       autocomplete="current-password"
                       autocapitalize="off"
@@ -192,12 +185,12 @@ flex *:min-size-auto flex-nowrap flex-column h-full overflow-auto relative sign-
                       id="password"
                       aria-describedby="id-5"
                       type="password"
-                      class="input-element w-full"
+                      class="input-element lw-full"
                       value="Amsterdam2018@me"
                     />
                   </div>
                   <div
-                    class="input-adornment mr-2 flex items-center shrink-0 flex-nowrap gap-2"
+                    class="input-adornment mr-2 flx items-center shrink-0 flx-nowrap gap-2"
                   >
                     <button
                       class="button button-for-icon button-small button-ghost-weak inline-flex shrink-0"
@@ -218,11 +211,11 @@ flex *:min-size-auto flex-nowrap flex-column h-full overflow-auto relative sign-
                 </div>
               </div>
               <div
-                class="field-two-assist flex flex-nowrap items-start"
+                class="field-two-assist flx flx-nowrap items-start"
                 id="id-5"
               ></div>
             </div>
-            <div class="flex flex-row items-start">
+            <div class="flx flx-wrap flex-row items-start">
               <label
                 for="staySignedIn"
                 class="checkbox-container relative mt-2 mr-2"
@@ -242,8 +235,10 @@ flex *:min-size-auto flex-nowrap flex-column h-full overflow-auto relative sign-
                   ></span
                 ></label
               >
-              <div class="flex-1">
-                <label for="staySignedIn" class="label flex items-center"
+              <div class="flx-1">
+                <label
+                  for="staySignedIn"
+                  class="label flx flx-wrap items-center"
                   >Keep me signed in</label
                 >
                 <div class="color-weak">
@@ -257,7 +252,7 @@ flex *:min-size-auto flex-nowrap flex-column h-full overflow-auto relative sign-
               </div>
             </div>
             <button
-              class="button w-full button-large button-solid-norm mt-6"
+              class="button lw-full button-large button-solid-norm mt-6"
               aria-busy="false"
               type="submit">Sign in</button
             >
@@ -280,7 +275,7 @@ flex *:min-size-auto flex-nowrap flex-column h-full overflow-auto relative sign-
         </div>
       </div>
       <div class="shrink-0 text-center px-4 pt-0 pb-0 sm:px-5 sm:pt-8 sm:pb-0">
-        <div class="flex justify-center gap-4 flex-nowrap">
+        <div class="flx justify-center gap-4 flx-nowrap">
           <div
             class="inline-block max-w-custom sm:max-w-auto"
             title="Proton Mail"

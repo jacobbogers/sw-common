@@ -32,9 +32,3 @@ html,
             sans-serif;
     }
 }
-
-.sign-layout-main-header>div:last-child {
-    display: flex;
-    flex-wrap: wrap;
-    justify-self: flex-end;
-}

@@ -1,56 +1,88 @@
-:lang(en) {
-    quotes: "\201c" "\201d" "\2018" "\2019";
-}
+@layer base {
+    :lang(en) {
+        quotes: "\201c" "\201d" "\2018" "\2019";
+    }
+
+    html {
+        quotes: "\201c" "\201d" "\2018" "\2019";
+    }
+
+    article,
+    aside,
+    details,
+    dialog,
+    figure,
+    footer,
+    header,
+    main,
+    menu,
+    nav,
+    section {
+        display: block;
+    }
+
+    button,
+    progress {
+        border: 0;
+    }
 
 
-html {
-    quotes: "\201c" "\201d" "\2018" "\2019";
-}
+    label,
+    button,
+    input[type=submit],
+    input[type=button],
+    input[type=reset] {
+        cursor: pointer;
+    }
 
-article,
-aside,
-details,
-dialog,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
-section {
-    display: block;
-}
+    label,
+    button,
+    input,
+    select {
+        color: currentcolor;
+        vertical-align: middle;
+    }
 
-button,
-progress {
-    border: 0;
-}
+    input,
+    select,
+    textarea,
+    optgroup,
+    button {
+        background: #0000;
+        border: 0;
+        font: inherit;
+        color: inherit;
+        -webkit-appearance: none;
+    }
 
+    a:hover,
+    a:focus {
+        color: var(--link-hover);
+        text-decoration: none;
+    }
 
-label,
-button,
-input[type=submit],
-input[type=button],
-input[type=reset] {
-    cursor: pointer;
-}
+    a {
+        color: var(--link-norm);
+        text-decoration: underline;
+        -webkit-text-decoration-skip: ink;
+        text-decoration-skip-ink: auto;
+        cursor: pointer;
+    }
 
-label,
-button,
-input,
-select {
-    color: currentcolor;
-    vertical-align: middle;
-}
+    body {
+        color: var(--text-norm);
+        line-height: 1.4285714286;
+        font-size: .875em;
+    }
 
-input,
-select,
-textarea,
-optgroup,
-button {
-    background: #0000;
-    border: 0;
-    font: inherit;
-    color: inherit;
-    -webkit-appearance: none;
+    html {
+        font-size: calc(var(--setting-font-size) * 7.1428571429%);
+    }
+
+    h1 {
+        display: block;
+        margin: 0;
+        font-size: 2.5714285714em;
+        font-weight: var(--font-weight-normal);
+    }
 }

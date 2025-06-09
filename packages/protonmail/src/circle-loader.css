@@ -25,11 +25,7 @@ figure {
     transition: .15s transform cubic-bezier(.34, 1.56, .64, 1);
 }
 
-@media (min-width: 28.135em) {
-    .sm\:p-11 {
-        padding: 2.75rem;
-    }
-}
+
 
 @media (min-width: 56.885em) {
     .lg\:m-8 {

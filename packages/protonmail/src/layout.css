@@ -1,37 +1,9 @@
-@media (min-width: 28.135em) {
-    .sign-layout-bg {
-        background: linear-gradient(68.66deg, #e8e2ff 1.3%, #f7f5ff 50%);
-    }
-}
-
 :root {
     --border-radius-4xl: calc(4 * var(--border-radius) * var(--1px));
 }
 
-.sign-layout-main-header>* {
-    min-block-size: 0;
-    min-inline-size: 0;
-}
 
-.sign-layout-main-header {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-}
 
-@media (min-width: 28.135em) {
-    .sign-layout-main-header {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(auto, 100%));
-        justify-content: space-between;
-    }
-}
-
-.sign-layout-main-header>div:last-child>* {
-    min-block-size: 0;
-    min-inline-size: 0;
-}
 
 @media (min-width: 42.51em) {
     .sign-layout {
@@ -45,16 +17,103 @@
     border-radius: var(--border-radius-lg);
 }
 
-.sign-layout h1,
-.sign-layout .h1 {
-    font-weight: var(--font-weight-bold);
-}
-
-.sign-layout-title {
-    font-size: 1.75rem;
-    font-weight: 400;
-}
 
 .signup-link:not(.language-dropdown) {
     text-decoration: underline;
+}
+
+@layer utilities {
+    .overflow-auto {
+        overflow: auto;
+    }
+
+    .relative {
+        position: relative;
+    }
+
+    .gap-1 {
+        gap: .25rem;
+    }
+
+    .px-6 {
+        padding-inline: 1.5rem;
+    }
+
+    .py-3 {
+        padding-block: .75rem;
+    }
+
+    .mb-2 {
+        margin-block-end: .5rem;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .flex-column {
+        flex-direction: column;
+    }
+
+    .rounded {
+        border-radius: var(--border-radius-md);
+    }
+
+    .justify-space-between {
+        justify-content: space-between;
+    }
+
+    .mx-auto {
+        margin-inline: auto;
+    }
+
+    .lw\-full {
+        block-size: 100%;
+    }
+
+    .pt-1 {
+        padding-block-start: .25rem;
+    }
+
+    .pb-6 {
+        padding-block-end: 1.5rem;
+    }
+
+    .mb-6 {
+        margin-block-end: 1.5rem;
+    }
+
+    .mt-2 {
+        margin-block-start: .5rem;
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:p-11 {
+            padding: 2.75rem;
+        }
+    }
+
+    @media (min-width: 56.885em) {
+        .lg\:px-12 {
+            padding-inline: 3rem;
+        }
+    }
+
+    @media (min-width: 42.51em) {
+        .md\:pt-5 {
+            padding-block-start: 1.25rem;
+        }
+    }
+
+    @media (min-width: 42.51em) {
+        .md\:pb-10 {
+            padding-block-end: 2.5rem;
+        }
+    }
+
+    @media (min-width: 42.51em) {
+        .md\:mb-0 {
+            margin-block-end: 0rem;
+        }
+    }
 }

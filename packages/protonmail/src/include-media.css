@@ -20,13 +20,9 @@
     min-inline-size: 0;
 }
 
-.rounded {
-    border-radius: var(--border-radius-md);
-}
 
-.shadow-color-primary {
-    --shadow-color: var(--shadow-primary-color);
-}
+
+
 
 .items-end {
     align-items: flex-end;

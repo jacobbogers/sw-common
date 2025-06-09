@@ -1,21 +1,3 @@
-body {
-    color: var(--text-norm);
-    line-height: 1.4285714286;
-    font-size: .875em;
-}
-
-html {
-    font-size: calc(var(--setting-font-size) * 7.1428571429%);
-}
-
-h1,
-.h1 {
-    display: block;
-    margin: 0;
-    font-size: 2.5714285714em;
-    font-weight: var(--font-weight-normal);
-}
-
 .link-focus {
     outline: 1px solid rgba(0, 0, 0, 0);
     outline-offset: .0714285714em;

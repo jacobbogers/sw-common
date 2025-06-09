@@ -1,77 +1,144 @@
-::selection {
-    background-color: var(--selection-background-color);
-    color: var(--selection-text-color);
-}
+@layer base {
+    ::selection {
+        background-color: var(--selection-background-color);
+        color: var(--selection-text-color);
+    }
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
 
-html {
-    box-sizing: border-box;
-    overscroll-behavior: none;
-}
+    html {
+        box-sizing: border-box;
+        overscroll-behavior: none;
+    }
 
-body {
-    background: var(--background-norm);
-    min-block-size: 100%;
-}
+    body {
+        background: var(--background-norm);
+        min-block-size: 100%;
+    }
 
 
-table,
-img,
-td,
-blockquote,
-code,
-pre,
-textarea,
-input,
-svg {
-    block-size: auto;
-    max-inline-size: 100%;
-}
+    table,
+    img,
+    td,
+    blockquote,
+    code,
+    pre,
+    textarea,
+    input,
+    svg {
+        block-size: auto;
+        max-inline-size: 100%;
+    }
 
-:root,
-.ui-standard,
-.ui-prominent {
-    --signal-danger-hover: var(--signal-danger-major-1);
-    --signal-danger-active: var(--signal-danger-major-2);
-    --signal-warning-hover: var(--signal-warning-major-1);
-    --signal-warning-active: var(--signal-warning-major-2);
-    --signal-success-hover: var(--signal-success-major-1);
-    --signal-success-active: var(--signal-success-major-2);
-    --signal-info-hover: var(--signal-info-major-1);
-    --signal-info-active: var(--signal-info-major-2);
-    --interaction-norm-hover: var(--interaction-norm-major-1);
-    --interaction-norm-active: var(--interaction-norm-major-2);
-    --interaction-weak-hover: var(--interaction-weak-major-1);
-    --interaction-weak-active: var(--interaction-weak-major-2);
-}
+    :root,
+    .ui-standard,
+    .ui-prominent {
+        --signal-danger-hover: var(--signal-danger-major-1);
+        --signal-danger-active: var(--signal-danger-major-2);
+        --signal-warning-hover: var(--signal-warning-major-1);
+        --signal-warning-active: var(--signal-warning-major-2);
+        --signal-success-hover: var(--signal-success-major-1);
+        --signal-success-active: var(--signal-success-major-2);
+        --signal-info-hover: var(--signal-info-major-1);
+        --signal-info-active: var(--signal-info-major-2);
+        --interaction-norm-hover: var(--interaction-norm-major-1);
+        --interaction-norm-active: var(--interaction-norm-major-2);
+        --interaction-weak-hover: var(--interaction-weak-major-1);
+        --interaction-weak-active: var(--interaction-weak-major-2);
+    }
 
-:root {
-    --1px: .0625rem;
-    --border-radius-sm: calc(.5 * var(--border-radius) * var(--1px));
-    --border-radius-md: calc(var(--border-radius) * var(--1px));
-    --border-radius-lg: calc(1.5 * var(--border-radius) * var(--1px));
-    --border-radius-xl: calc(2 * var(--border-radius) * var(--1px));
-    --border-radius-full: 9999em;
-}
+    :root {
+        --1px: .0625rem;
+        --border-radius-sm: calc(.5 * var(--border-radius) * var(--1px));
+        --border-radius-md: calc(var(--border-radius) * var(--1px));
+        --border-radius-lg: calc(1.5 * var(--border-radius) * var(--1px));
+        --border-radius-xl: calc(2 * var(--border-radius) * var(--1px));
+        --border-radius-full: 9999em;
+    }
 
-a:hover,
-.link:hover,
-a:focus,
-.link:focus {
-    color: var(--link-hover);
-    text-decoration: none;
-}
+    .ui-standard,
+    .ui-prominent {
+        background-color: var(--background-norm);
+        color: var(--text-norm);
+    }
 
-a,
-.link {
-    color: var(--link-norm);
-    text-decoration: underline;
-    -webkit-text-decoration-skip: ink;
-    text-decoration-skip-ink: auto;
-    cursor: pointer;
+    :root,
+    .ui-standard,
+    .ui-prominent {
+        --link-norm: var(--optional-link-norm, var(--interaction-norm));
+        --link-hover: var(--optional-link-hover, var(--interaction-norm-hover));
+        --link-active: var(--optional-link-active, var(--interaction-norm-active));
+        --selection-background-color: var(--optional-selection-background-color, var(--primary));
+        --selection-text-color: var(--optional-selection-text-color, var(--primary-contrast));
+        --header-background-color: var(--optional-header-background-color, var(--background-norm));
+        --sidebar-background-color: var(--optional-sidebar-background-color, var(--background-norm));
+        --navigation-current-item-marker-color: var(--optional-navigation-current-item-marker-color, var(--interaction-norm));
+        --navigation-current-item-background-color: var(--optional-navigation-current-item-background-color, var(--interaction-default-hover));
+        --navigation-current-item-text-color: var(--optional-navigation-current-item-text-color, var(--text-norm));
+        --main-box-shadow: var(--optional-main-box-shadow, none);
+        --main-border-width: var(--optional-main-border-width, 1px);
+        --navigation-item-count-background-color: var(--optional-navigation-item-count-background-color, var(--primary));
+        --navigation-item-count-text-color: var(--optional-navigation-item-count-text-color, var(--primary-contrast));
+        --toolbar-background-color: var(--optional-toolbar-background-color, var(--background-norm));
+        --toolbar-border-bottom-color: var(--optional-toolbar-border-bottom-color, var(--border-weak));
+        --toolbar-text-color: var(--optional-toolbar-text-color, var(--text-norm));
+        --toolbar-separator-color: var(--optional-toolbar-separator-color, var(--border-norm));
+        --scrollbar-thumb-color: var(--optional-scrollbar-thumb-color, rgba(128, 128, 128, .25));
+        --tooltip-background-color: var(--optional-tooltip-background-color, var(--background-invert));
+        --tooltip-text-color: var(--optional-tooltip-text-color, var(--text-invert));
+        --background-elevated: var(--optional-background-elevated, var(--background-norm));
+        --background-lowered: var(--optional-background-lowered, var(--background-weak));
+        --email-item-unread-background-color: var(--optional-email-item-unread-background-color, var(--background-elevated));
+        --email-item-unread-text-color: var(--optional-email-item-unread-text-color, var(--text-norm));
+        --email-item-unread-icon-background-color: var(--optional-email-item-unread-icon-background-color, var(--background-strong));
+        --email-item-unread-icon-text-color: var(--optional-email-item-unread-icon-text-color, inherit);
+        --email-item-read-background-color: var(--optional-email-item-read-background-color, var(--background-lowered));
+        --email-item-read-text-color: var(--optional-email-item-read-text-color, var(--text-norm));
+        --email-item-read-icon-background-color: var(--optional-email-item-read-icon-background-color, var(--background-strong));
+        --email-item-read-icon-text-color: var(--optional-email-item-read-icon-text-color, inherit);
+        --email-item-selected-background-color: var(--optional-email-item-selected-background-color, var(--interaction-norm));
+        --email-item-selected-text-color: var(--optional-email-item-selected-text-color, var(--interaction-norm-contrast));
+        --email-item-selected-icon-background-color: var(--optional-email-item-selected-icon-background-color, var(--interaction-norm-major-2));
+        --email-item-selected-icon-text-color: var(--optional-email-item-selected-icon-text-color, inherit);
+        --email-message-view-background-color: var(--optional-email-message-view-background-color, var(--background-norm));
+        --email-message-view-comfort-background-color: var(--optional-email-message-view-comfort-background-color, var(--background-norm));
+        --field-background-color: var(--optional-field-background-color, var(--background-norm));
+        --field-text-color: var(--optional-field-text-color, var(--text-norm));
+        --field-placeholder-color: var(--optional-field-placeholder-color, var(--text-hint));
+        --field-hover-background-color: var(--optional-field-hover-background-color, var(--background-norm));
+        --field-hover-text-color: var(--optional-field-hover-text-color, var(--text-norm));
+        --field-focus-background-color: var(--optional-field-focus-background-color, var(--background-norm));
+        --field-focus-text-color: var(--optional-field-focus-text-color, var(--text-norm));
+        --field-disabled-background-color: var(--optional-field-disabled-background-color, var(--background-norm));
+        --field-disabled-text-color: var(--optional-field-disabled-text-color, var(--text-disabled));
+        --select-background-color: var(--optional-select-background-color, var(--field-background-color));
+        --favorite-icon-color: var(--optional-favorite-icon-color, orange);
+        --mark-background-color: var(--optional-mark-background-color, yellow);
+        --mark-text-color: var(--optional-mark-text-color, black);
+        --mark-font-weight: var(--optional-mark-font-weight, var(--font-weight-normal, normal));
+        --modal-background-color: var(--optional-modal-background-color, var(--background-norm));
+        --modal-text-color: var(--optional-modal-text-color, var(--text-norm));
+        --file-preview-text-color: var(--optional-file-preview-text-color, var(--text-norm));
+        --file-preview-background-color: var(--optional-file-preview-background-color, var(--background-norm));
+        --mini-calendar-today-color: var(--optional-mini-calendar-today-color, var(--primary));
+        --border-radius: var(--optional-border-radius, 8);
+        --shadow-default-color: var(--optional-shadow-default-color, 0 0 0);
+        --shadow-norm-offset: var(--optional-shadow-norm-offset, 0 calc(var(--1px)) calc(var(--1px) * 4));
+        --shadow-raised-offset: var(--optional-shadow-raised-offset, 0 calc(var(--1px) * 4) calc(var(--1px) * 12));
+        --shadow-lifted-offset: var(--optional-shadow-lifted-offset, 0 calc(var(--1px) * 8) calc(var(--1px) * 24));
+        --logo-text-proton-color: var(--optional-logo-text-proton-color, var(--text-norm));
+        --logo-text-product-color: var(--optional-logo-text-product-color, var(--primary));
+        --promotion-text-color: var(--optional-promotion-text-color, #15006F);
+        --promotion-text-weak: var(--optional-promotion-text-weak, #50409b);
+        --promotion-interaction-hover: var(--optional-promotion-interaction-hover, rgba(109, 74, 255, .08));
+        --promotion-background-start: var(--optional-promotion-background-start, rgba(109, 74, 255, .15));
+        --promotion-background-end: var(--optional-promotion-background-end, rgba(70, 26, 255, .04));
+        --promotion-secondary-color: var(--optional-promotion-secondary-color, #d783ff);
+        --bg-promotion-bw-button: var(--optional-bg-promotion-bw-button, var(--background-invert));
+        --text-promotion-bw-button: var(--optional-text-promotion-bw-button, var(--text-invert));
+    }
 }
