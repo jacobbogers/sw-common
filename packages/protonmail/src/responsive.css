@@ -71,7 +71,10 @@
 }
 
 
-.flex,
+.flex {
+    display: flex;
+}
+
 .modal-close {
     display: flex;
     flex-wrap: wrap;
@@ -103,7 +106,10 @@
     gap: .5rem;
 }
 
-.flex-1,
+.flex-1 {
+    flex: 1 1 0;
+}
+
 .wizard-item:not(:last-child) {
     flex: 1 1 0;
 }

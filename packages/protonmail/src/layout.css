@@ -2,9 +2,6 @@
     --border-radius-4xl: calc(4 * var(--border-radius) * var(--1px));
 }
 
-
-
-
 @media (min-width: 42.51em) {
     .sign-layout {
         min-block-size: 24.375rem;
@@ -65,10 +62,6 @@
 
     .mx-auto {
         margin-inline: auto;
-    }
-
-    .lw\-full {
-        block-size: 100%;
     }
 
     .pt-1 {

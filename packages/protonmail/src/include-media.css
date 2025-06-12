@@ -10,15 +10,7 @@
     }
 }
 
-.flex>*,
-.modal-close>*,
-.sm\:flex>*,
-.md\:flex>*,
-.lg\:flex>*,
-.xl\:flex>* {
-    min-block-size: 0;
-    min-inline-size: 0;
-}
+
 
 
 

@@ -1,0 +1,84 @@
+@layer utilities {
+
+
+    .shrink-0 {
+        flex-shrink: 0;
+    }
+
+    .infline-flex {
+        display: inline-flex;
+    }
+
+    .p-4 {
+        padding: 1rem;
+    }
+
+    .m-2 {
+        margin: .5rem;
+    }
+
+    .right-0 {
+        right: 0;
+    }
+
+    .end-0 {
+        inset-inline-end: 0;
+    }
+
+    .text-nowrap {
+        white-space: nowrap;
+    }
+
+    .color-inherit {
+        color: inherit;
+    }
+
+    .color-primary {
+        color: var(--primary);
+    }
+
+    .icon-size-15,
+    .icon-size-14,
+    .icon-size-13,
+    .icon-size-12,
+    .icon-size-11,
+    .icon-size-10,
+    .icon-size-9,
+    .icon-size-8,
+    .icon-size-7,
+    .icon-size-6,
+    .icon-size-5\.5,
+    .icon-size-5,
+    .icon-size-4\.5,
+    .icon-size-4,
+    .icon-size-3\.5,
+    .icon-size-3,
+    .icon-size-2\.75,
+    .icon-size-2\.5 {
+        display: inline-block;
+        vertical-align: middle;
+        fill: currentcolor;
+    }
+
+    .icon-size-4 {
+        inline-size: 1rem;
+        block-size: 1rem;
+    }
+
+    .icon-size-7 {
+        inline-size: 1.75rem;
+        block-size: 1.75rem;
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:px-6 {
+            padding-inline: 1.5rem;
+        }
+    }
+
+    @media (min-width: 56.885em) {
+        .lg\:m-8 {
+            margin: 2rem;
+        }
+    }
+}
