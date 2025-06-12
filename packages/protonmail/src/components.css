@@ -156,6 +156,12 @@
         min-inline-size: 0;
     }
 
+    .sign-layout {
+        transform: translateZ(0);
+        transition: max-inline-size .15s cubic-bezier(.42, 0, 1, 1);
+        border-radius: var(--border-radius-lg);
+    }
+
     .link {
         color: var(--link-norm);
         text-decoration: underline;
@@ -264,5 +270,9 @@
     .field-two-assist:empty:before {
         content: " ";
         white-space: pre;
+    }
+
+    .signup-link:not(.language-dropdown) {
+        text-decoration: underline;
     }
 }

@@ -1,33 +1,17 @@
 @import './theme.css';
-
-
 @import './scroll.css';
-@import './layout.css';
-
-@import './ui-regions.css';
-
-@import './include-media.css';
-
 @import './reset.css';
 @import './typo.css';
-@import './init.css';
 @import './responsive.css';
 @import './position.css';
-
-
-
 @import './scroll-bar.css';
-
 @import './interactive.css';
 @import './visibility.css';
-@import './media.css';
 @import './structure.css';
-
 @import './radio.css';
 @import './components.css';
-
 @import './utilities.css';
 @import './base.css';
 @import './components.css';
 
-@layer base, components, utilities;
+@layer theme, base, components, utilities;

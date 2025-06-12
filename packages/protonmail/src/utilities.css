@@ -1,5 +1,11 @@
 @layer utilities {
+    .items-end {
+        align-items: flex-end;
+    }
 
+    .text-center {
+        text-align: center;
+    }
 
     .shrink-0 {
         flex-shrink: 0;
@@ -68,6 +74,96 @@
     .icon-size-7 {
         inline-size: 1.75rem;
         block-size: 1.75rem;
+    }
+
+    .overflow-auto {
+        overflow: auto;
+    }
+
+    .relative {
+        position: relative;
+    }
+
+    .gap-1 {
+        gap: .25rem;
+    }
+
+    .px-6 {
+        padding-inline: 1.5rem;
+    }
+
+    .py-3 {
+        padding-block: .75rem;
+    }
+
+    .mb-2 {
+        margin-block-end: .5rem;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .flex-column {
+        flex-direction: column;
+    }
+
+    .rounded {
+        border-radius: var(--border-radius-md);
+    }
+
+    .justify-space-between {
+        justify-content: space-between;
+    }
+
+    .mx-auto {
+        margin-inline: auto;
+    }
+
+    .pt-1 {
+        padding-block-start: .25rem;
+    }
+
+    .pb-6 {
+        padding-block-end: 1.5rem;
+    }
+
+    .mb-6 {
+        margin-block-end: 1.5rem;
+    }
+
+    .mt-2 {
+        margin-block-start: .5rem;
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:p-11 {
+            padding: 2.75rem;
+        }
+    }
+
+    @media (min-width: 56.885em) {
+        .lg\:px-12 {
+            padding-inline: 3rem;
+        }
+    }
+
+    @media (min-width: 42.51em) {
+        .md\:pt-5 {
+            padding-block-start: 1.25rem;
+        }
+    }
+
+    @media (min-width: 42.51em) {
+        .md\:pb-10 {
+            padding-block-end: 2.5rem;
+        }
+    }
+
+    @media (min-width: 42.51em) {
+        .md\:mb-0 {
+            margin-block-end: 0rem;
+        }
     }
 
     @media (min-width: 28.135em) {
