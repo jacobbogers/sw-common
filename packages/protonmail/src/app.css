@@ -1,10 +1,7 @@
 @import './theme.css';
-@import './scroll.css';
+
 @import './reset.css';
-@import './typo.css';
-@import './responsive.css';
 @import './position.css';
-@import './scroll-bar.css';
 @import './interactive.css';
 @import './visibility.css';
 @import './structure.css';
@@ -14,4 +11,4 @@
 @import './base.css';
 @import './components.css';
 
-@layer theme, base, components, utilities;
+@layer base, components, utilities;

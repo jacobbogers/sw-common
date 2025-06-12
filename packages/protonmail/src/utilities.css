@@ -177,4 +177,315 @@
             margin: 2rem;
         }
     }
+
+    @media (min-width: 56.885em) {
+        .lg\:text-right {
+            text-align: end;
+        }
+    }
+
+    .pb-0 {
+        padding-block-end: 0rem;
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:pb-4 {
+            padding-block-end: 1rem;
+        }
+    }
+
+
+
+
+
+
+
+
+    @media (min-width: 28.135em) {
+        .sm\:gap-4 {
+            gap: 1rem;
+        }
+    }
+
+
+
+
+    @media (min-width: 28.135em) {
+        .sm\:inline-block {
+            display: inline-block;
+        }
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:px-5 {
+            padding-inline: 1.25rem;
+        }
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:pb-0 {
+            padding-block-end: 0rem;
+        }
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:pt-8 {
+            padding-block-start: 2rem;
+        }
+    }
+
+    .inline-block {
+        display: inline-block;
+    }
+
+    .mt-6 {
+        margin-block-start: 1.5rem;
+    }
+
+    .block {
+        display: block;
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:inline {
+            display: inline;
+        }
+    }
+
+    .px-2 {
+        padding-inline: .5rem 8px;
+    }
+
+    .mb-4 {
+        margin-block-end: 1rem;
+    }
+
+    .mr-2 {
+        margin-inline-end: .5rem;
+    }
+
+    .flex-nowrap {
+        flex-wrap: nowrap;
+    }
+
+    .w-full {
+        inline-size: 100%;
+    }
+
+    .absolute {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .gap-2 {
+        gap: .5rem;
+    }
+
+    .flex-1 {
+        flex: 1 1 0;
+    }
+
+    .inline-block {
+        display: inline-block;
+    }
+
+    .mt-6 {
+        margin-block-start: 1.5rem;
+    }
+
+    .block {
+        display: block;
+    }
+
+    .items-center {
+        align-items: center;
+    }
+
+    .flex-row {
+        flex-direction: row;
+    }
+
+    .justify-center {
+        justify-content: center;
+    }
+
+    .gap-4 {
+        gap: 1rem;
+    }
+
+    .inline-flex {
+        display: inline-flex;
+    }
+
+
+
+
+
+    .mt-4 {
+        margin-block-start: 1rem;
+    }
+
+    .my-4 {
+        margin-block: 1rem;
+    }
+
+
+    .h-full {
+        block-size: 100%;
+    }
+
+    .pt-4 {
+        padding-block-start: 1rem;
+    }
+
+    .px-4 {
+        padding-inline: 1rem;
+    }
+
+
+
+    .pt-0 {
+        padding-block-start: 0rem;
+    }
+
+
+
+    .ml-1 {
+        margin-inline-start: .25rem;
+    }
+
+    .items-center {
+        align-items: center;
+    }
+
+
+    .flex {
+        display: flex;
+    }
+
+    .items-start {
+        align-items: flex-start;
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:inline-block {
+            display: inline-block;
+        }
+    }
+
+
+    .pb-0 {
+        padding-block-end: 0rem;
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:pb-4 {
+            padding-block-end: 1rem;
+        }
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:gap-4 {
+            gap: 1rem;
+        }
+    }
+
+
+
+
+    @media (min-width: 28.135em) {
+        .sm\:inline-block {
+            display: inline-block;
+        }
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:px-5 {
+            padding-inline: 1.25rem;
+        }
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:pb-0 {
+            padding-block-end: 0rem;
+        }
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:pt-8 {
+            padding-block-start: 2rem;
+        }
+    }
+
+
+
+    @media (min-width: 28.135em) {
+        .sm\:inline {
+            display: inline;
+        }
+    }
+
+    .px-2 {
+        padding-inline: .5rem 8px;
+    }
+
+    .mb-4 {
+        margin-block-end: 1rem;
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:hidden {
+            display: none;
+        }
+    }
+
+    @media (min-width: 56.885em) {
+        .lg\:mr-12 {
+            margin-inline-end: 3rem;
+        }
+    }
+
+    @media (min-width: 56.885em) {
+        .lg\:mb-12 {
+            margin-block-end: 3rem;
+        }
+    }
+
+    .static {
+        position: static;
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:text-rg {
+            font-size: 1em;
+        }
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:hidden {
+            display: none;
+        }
+    }
+
+    @media (min-width: 56.885em) {
+        .lg\:mr-12 {
+            margin-inline-end: 3rem;
+        }
+    }
+
+    @media (min-width: 56.885em) {
+        .lg\:mb-12 {
+            margin-block-end: 3rem;
+        }
+    }
+
+    .static {
+        position: static;
+    }
+
+    @media (min-width: 28.135em) {
+        .sm\:text-rg {
+            font-size: 1em;
+        }
+    }
 }

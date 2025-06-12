@@ -1,6 +1,89 @@
 @layer base {
+    body {
+        color: var(--text-norm);
+        line-height: 1.4285714286;
+        font-size: .875em;
+    }
 
+    a:hover,
+    a:focus {
+        color: var(--link-hover);
+        text-decoration: none;
+    }
 
+    a {
+        color: var(--link-norm);
+        text-decoration: underline;
+        -webkit-text-decoration-skip: ink;
+        text-decoration-skip-ink: auto;
+        cursor: pointer;
+    }
+
+    h1 {
+        display: block;
+        margin: 0;
+        font-size: 2.5714285714em;
+        font-weight: var(--font-weight-normal);
+    }
+
+    :lang(en) {
+        quotes: "\201c" "\201d" "\2018" "\2019";
+    }
+
+    html {
+        quotes: "\201c" "\201d" "\2018" "\2019";
+    }
+
+    article,
+    aside,
+    details,
+    dialog,
+    figure,
+    footer,
+    header,
+    main,
+    menu,
+    nav,
+    section {
+        display: block;
+    }
+
+    button,
+    progress {
+        border: 0;
+    }
+
+    label,
+    button,
+    input[type=submit],
+    input[type=button],
+    input[type=reset] {
+        cursor: pointer;
+    }
+
+    label,
+    button,
+    input,
+    select {
+        color: currentcolor;
+        vertical-align: middle;
+    }
+
+    input,
+    select,
+    textarea,
+    optgroup,
+    button {
+        background: #0000;
+        border: 0;
+        font: inherit;
+        color: inherit;
+        -webkit-appearance: none;
+    }
+
+    html {
+        font-size: calc(var(--setting-font-size) * 7.1428571429%);
+    }
 
     html,
     body,
@@ -114,6 +197,41 @@
     .ui-prominent {
         background-color: var(--background-norm);
         color: var(--text-norm);
+    }
+
+    @supports (scrollbar-width: auto) {
+        html:not(.feature-scrollbars-off) * {
+            scrollbar-width: thin;
+            scrollbar-color: var(--scrollbar-thumb-color) rgba(0, 0, 0, 0);
+        }
+    }
+
+    @supports selector(::-webkit-scrollbar) {
+        html:not(.feature-scrollbars-off) *::-webkit-scrollbar {
+            inline-size: .625rem;
+            block-size: .625rem;
+        }
+    }
+
+    @supports selector(::-webkit-scrollbar) {
+        html:not(.feature-scrollbars-off) *::-webkit-scrollbar-corner {
+            visibility: hidden;
+        }
+    }
+
+    @supports selector(::-webkit-scrollbar) {
+        html:not(.feature-scrollbars-off) *::-webkit-scrollbar-thumb {
+            border: .125rem solid rgba(0, 0, 0, 0);
+            background-clip: padding-box;
+            border-radius: .3125rem;
+            background-color: var(--scrollbar-thumb-color);
+        }
+    }
+
+    @supports selector(::-webkit-scrollbar) {
+        html:not(.feature-scrollbars-off) *::-webkit-scrollbar-track {
+            background-color: #0000;
+        }
     }
 
 }

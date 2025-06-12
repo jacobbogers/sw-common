@@ -206,6 +206,43 @@
         color: var(--text-weak);
     }
 
+    .link-focus {
+        outline: 1px solid rgba(0, 0, 0, 0);
+        outline-offset: .0714285714em;
+        border-radius: var(--border-radius-sm);
+        transition: outline .15s cubic-bezier(.5, 1, .89, 1);
+    }
+
+    .wizard-item:not(:last-child) {
+        flex: 1 1 0;
+    }
+
+    .label {
+        padding-block-start: .5em;
+        inline-size: var(--label-width, 18em);
+        padding-inline-end: .5em;
+        max-inline-size: 100%;
+        flex-shrink: 0;
+    }
+
+    .modal-close {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .mr-custom {
+        margin-inline-end: var(--mr-custom);
+    }
+
+    @supports (font-variation-settings: normal) {
+
+        html,
+        .apply-font {
+            font-family: var(--setting-font-family, var(--optional-font-family, "InterVariable", system-ui, sans-serif));
+        }
+    }
+
     @media (min-width: 28.135em) {
         .sm\:shadow-lifted {
             box-shadow: var(--shadow-lifted-offset) rgb(var(--shadow-color, var(--shadow-default-color)) / var(--shadow-lifted-opacity));
