@@ -199,6 +199,11 @@
         color: var(--text-norm);
     }
 
+    body,
+    html {
+        block-size: 100%;
+    }
+
     @supports (scrollbar-width: auto) {
         html:not(.feature-scrollbars-off) * {
             scrollbar-width: thin;

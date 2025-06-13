@@ -235,6 +235,15 @@
         margin-inline-end: var(--mr-custom);
     }
 
+    .app-root,
+    .content-container {
+        block-size: 100%;
+    }
+
+    .left-custom {
+        inset-inline-start: var(--left-custom);
+    }
+
     @supports (font-variation-settings: normal) {
 
         html,
@@ -311,5 +320,105 @@
 
     .signup-link:not(.language-dropdown) {
         text-decoration: underline;
+    }
+
+    .checkbox-input:checked+.checkbox-fakecheck .checkbox-fakecheck-img,
+    .checkbox-input:checked+.radio-fakeradio .checkbox-fakecheck-img,
+    .checkbox-input:indeterminate+.checkbox-fakecheck .checkbox-fakecheck-img,
+    .checkbox-input:indeterminate+.radio-fakeradio .checkbox-fakecheck-img {
+        transform: scale(1);
+        transition-delay: .1s;
+    }
+
+    .interactive-pseudo-protrude:not([class*=bg-]),
+    .interactive-pseudo-inset:not([class*=bg-]),
+    .dropdown-item-button:not([class*=bg-]),
+    .dropdown-item-link:not([class*=bg-]),
+    .interactive-pseudo:not([class*=bg-]),
+    .minicalendar-weeknumber:not([class*=bg-]),
+    .minicalendar-day:not([class*=bg-]),
+    .autocomplete-suggestions div:not([class*=bg-]),
+    .interactive:not([class*=bg-]),
+    .dropdown-item-container:not([class*=bg-]),
+    .apps-dropdown-button:not([class*=bg-]),
+    .toolbar .select:not([class*=bg-]),
+    .toolbar-button:not([class*=bg-]),
+    .navigation-sublink:not([class*=bg-]),
+    .navigation-link-header-group-control:not([class*=bg-]),
+    .navigation-link-header-group-link:not([class*=bg-]),
+    .navigation-link:not([class*=bg-]) {
+        background-color: var(--interaction-default);
+    }
+
+    .interactive-pseudo-protrude,
+    .interactive-pseudo-inset,
+    .dropdown-item-button,
+    .dropdown-item-link,
+    .interactive-pseudo,
+    .minicalendar-weeknumber,
+    .minicalendar-day,
+    .autocomplete-suggestions div,
+    .interactive,
+    .dropdown-item-container,
+    .apps-dropdown-button,
+    .toolbar .select,
+    .toolbar-button,
+    .navigation-sublink,
+    .navigation-link-header-group-control,
+    .navigation-link-header-group-link,
+    .navigation-link {
+        outline: none;
+        color: inherit;
+        transition: .15s cubic-bezier(.22, 1, .36, 1), background-position 0s;
+    }
+
+    @supports selector(:focus-visible:has(a, b)) {
+
+        .interactive-pseudo-protrude,
+        .interactive-pseudo-inset,
+        .dropdown-item-button,
+        .dropdown-item-link,
+        .interactive-pseudo,
+        .minicalendar-weeknumber,
+        .minicalendar-day,
+        .autocomplete-suggestions div,
+        .interactive,
+        .dropdown-item-container,
+        .apps-dropdown-button,
+        .toolbar .select,
+        .toolbar-button,
+        .navigation-sublink,
+        .navigation-link-header-group-control,
+        .navigation-link-header-group-link,
+        .navigation-link {
+            outline: unset;
+        }
+    }
+
+    .interactive-pseudo,
+    .minicalendar-weeknumber,
+    .minicalendar-day,
+    .autocomplete-suggestions div,
+    .interactive-pseudo-protrude,
+    .interactive-pseudo-inset,
+    .dropdown-item-button,
+    .dropdown-item-link {
+        z-index: 1;
+    }
+
+    .invisible,
+    .wizard-container--no-text-displayed .wizard-item[aria-current=step] .wizard-item-inner,
+    .sr-only,
+    .radio,
+    .app-infos-compact .app-infos-name {
+        position: absolute;
+        inset-block-start: 0;
+        block-size: 1px;
+        inline-size: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        border: 0;
+        clip: rect(0 0 0 0);
     }
 }
