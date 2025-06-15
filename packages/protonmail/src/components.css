@@ -318,7 +318,7 @@
         white-space: pre;
     }
 
-    .signup-link:not(.language-dropdown) {
+    .signup-link {
         text-decoration: underline;
     }
 

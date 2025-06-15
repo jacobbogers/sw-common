@@ -7,9 +7,10 @@
         text-align: center;
     }
 
-    .shrink-0 {
+    /* .shrink-0 {
         flex-shrink: 0;
     }
+    */
 
     .infline-flex {
         display: inline-flex;
@@ -31,9 +32,9 @@
         inset-inline-end: 0;
     }
 
-    .text-nowrap {
+    /*.text-nowrap {
         white-space: nowrap;
-    }
+    }*/
 
     .color-inherit {
         color: inherit;
@@ -56,7 +57,7 @@
     .icon-size-5\.5,
     .icon-size-5,
     .icon-size-4\.5,
-    .icon-size-4,
+    /*.icon-size-4,*/
     .icon-size-3\.5,
     .icon-size-3,
     .icon-size-2\.75,
@@ -66,51 +67,64 @@
         fill: currentcolor;
     }
 
+    /*
     .icon-size-4 {
         inline-size: 1rem;
         block-size: 1rem;
-    }
+    }*/
 
     .icon-size-7 {
         inline-size: 1.75rem;
         block-size: 1.75rem;
     }
 
+    /*
     .overflow-auto {
         overflow: auto;
     }
+    */
 
+    /*
     .relative {
         position: relative;
     }
+    */
 
+    /*
     .gap-1 {
         gap: .25rem;
     }
+    */
 
+    /*
     .px-6 {
         padding-inline: 1.5rem;
     }
-
+   */
+    /*
     .py-3 {
         padding-block: .75rem;
     }
+   */
 
-    .mb-2 {
+    /*.mb-2 {
         margin-block-end: .5rem;
-    }
+    }*/
 
-    .hidden {
+    /*.hidden {
         display: none;
-    }
+    }*/
 
+    /*
     .flex-column {
         flex-direction: column;
     }
+    */
 
-    .rounded {
+    /*.rounded {
         border-radius: var(--border-radius-md);
     }
+    */
 
     .justify-space-between {
         justify-content: space-between;
@@ -142,29 +156,34 @@
         }
     }
 
+    /*
     @media (min-width: 56.885em) {
         .lg\:px-12 {
             padding-inline: 3rem;
         }
     }
-
+    */
+    /*
     @media (min-width: 42.51em) {
         .md\:pt-5 {
             padding-block-start: 1.25rem;
         }
     }
-
+    */
+    /*
     @media (min-width: 42.51em) {
         .md\:pb-10 {
             padding-block-end: 2.5rem;
         }
     }
-
+*/
+    /*
     @media (min-width: 42.51em) {
         .md\:mb-0 {
             margin-block-end: 0rem;
         }
     }
+    */
 
     @media (min-width: 28.135em) {
         .sm\:px-6 {
@@ -194,27 +213,12 @@
         }
     }
 
-
-
-
-
-
-
-
-    @media (min-width: 28.135em) {
-        .sm\:gap-4 {
-            gap: 1rem;
-        }
-    }
-
-
-
-
+    /*
     @media (min-width: 28.135em) {
         .sm\:inline-block {
             display: inline-block;
         }
-    }
+    }*/
 
     @media (min-width: 28.135em) {
         .sm\:px-5 {
@@ -264,9 +268,11 @@
         margin-inline-end: .5rem;
     }
 
+    /*
     .flex-nowrap {
         flex-wrap: nowrap;
     }
+    */
 
     .w-full {
         inline-size: 100%;
@@ -297,9 +303,9 @@
         display: block;
     }
 
-    .items-center {
+    /*.items-center {
         align-items: center;
-    }
+    }*/
 
     .flex-row {
         flex-direction: row;
@@ -313,9 +319,11 @@
         gap: 1rem;
     }
 
+    /*
     .inline-flex {
         display: inline-flex;
     }
+    */
 
 
 
@@ -329,10 +337,12 @@
         margin-block: 1rem;
     }
 
+    /*
 
     .h-full {
         block-size: 100%;
     }
+        */
 
     .pt-4 {
         padding-block-start: 1rem;
@@ -350,18 +360,19 @@
 
 
 
-    .ml-1 {
+    /*.ml-1 {
         margin-inline-start: .25rem;
-    }
+    }*/
 
-    .items-center {
+    /*.items-center {
         align-items: center;
-    }
+    }*/
 
-
+    /*
     .flex {
         display: flex;
     }
+    */
 
     .items-start {
         align-items: flex-start;
@@ -453,11 +464,11 @@
         }
     }
 
-    @media (min-width: 28.135em) {
+    /*@media (min-width: 28.135em) {
         .sm\:inline-block {
             display: inline-block;
         }
-    }
+    }*/
 
 
     .pb-0 {
@@ -470,20 +481,21 @@
         }
     }
 
+    /*
     @media (min-width: 28.135em) {
         .sm\:gap-4 {
             gap: 1rem;
         }
     }
+*/
 
 
 
-
-    @media (min-width: 28.135em) {
+    /*@media (min-width: 28.135em) {
         .sm\:inline-block {
             display: inline-block;
         }
-    }
+    }*/
 
     @media (min-width: 28.135em) {
         .sm\:px-5 {
