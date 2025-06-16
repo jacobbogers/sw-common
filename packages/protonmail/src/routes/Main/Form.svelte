@@ -1,7 +1,7 @@
 <form name="loginForm" data-testid="login-form" method="post">
   <div
     aria-hidden="true"
-    class="absolute z-[1] top-custom left-custom visibility-hidden"
+    class="absolute z-[1] top-custom left-custom invisible"
     style="--left-custom: -1000px; --top-custom: -1000px;"
   ></div>
   <!--
