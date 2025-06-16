@@ -1,7 +1,7 @@
 <form name="loginForm" data-testid="login-form" method="post">
   <div
     aria-hidden="true"
-    class="absolute top-custom left-custom visibility-hidden"
+    class="absolute z-[1] top-custom left-custom visibility-hidden"
     style="--left-custom: -1000px; --top-custom: -1000px;"
   ></div>
   <!--
@@ -10,14 +10,14 @@
             src="https://account-api.proton.me/challenge/v4/html?Type=0&amp;Name=login"
             sandbox="allow-scripts allow-same-origin allow-popups"
             aria-hidden="true"
-            class="absolute top-custom left-custom"
+            class="absolute z-[1] top-custom left-custom"
             style="--left-custom: -1000px; --top-custom: -1000px;"
           ></iframe>
       -->
   <div class="field-two-container field-two--bigger">
     <label
       for="username"
-      class="field-two-label-container flex justify-space-between flex-nowrap items-end gap-2"
+      class="field-two-label-container flex justify-between flex-nowrap items-end gap-2"
       ><span class="field-two-label">Email or username</span></label
     >
     <div class="field-two-input-container relative">
@@ -46,7 +46,7 @@
   <div class="field-two-container field-two--bigger mt-2">
     <label
       for="password"
-      class="field-two-label-container flex justify-space-between flex-nowrap items-end gap-2"
+      class="field-two-label-container flex justify-between flex-nowrap items-end gap-2"
       ><span class="field-two-label">Password</span></label
     >
     <div class="field-two-input-container relative">

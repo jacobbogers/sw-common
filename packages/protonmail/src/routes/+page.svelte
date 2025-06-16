@@ -3,6 +3,7 @@
   import Footer from "./Footer.svelte";
   import Main from "./Main/index.svelte";
   import VersionInfo from "./VersionInfo.svelte";
+  import HelpBtn from "./HelpBtn.svelte";
 </script>
 
 <div
@@ -11,6 +12,7 @@
   <Header />
   <Main />
   <Footer />
+  <HelpBtn />
   <VersionInfo />
   <p
     data-testid="layout-footer:version-text"

@@ -1,10 +1,9 @@
 <script lang="ts">
   import Form from "./Form.svelte";
   import AppIcons from "./AppIcons.svelte";
-  import HelpBtn from "./HelpBtn.svelte";
 </script>
 
-<div class="p-0 sm:px-6 flex flex-nowrap flex-col justify-space-between">
+<div class="p-0 sm:px-6 flex flex-nowrap flex-col justify-between">
   <main>
     <div
       class="w-full max-w-custom relative sign-layout pt-1 pb-6 sm:p-11 ui-standard px-6 mx-auto sm:shadow-lifted shadow-color-primary"
@@ -23,4 +22,3 @@
     <AppIcons />
   </main>
 </div>
-<HelpBtn />
