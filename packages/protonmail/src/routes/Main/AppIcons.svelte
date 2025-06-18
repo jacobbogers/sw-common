@@ -13,7 +13,7 @@
         height="36"
         fill="none"
         role="img"
-        class="logo icon-size-7 glyph-only"
+        class="logo fill-current align-middle inline-block w-7 h-7 glyph-only"
         aria-labelledby="logo-7-title"
         ><title id="logo-7-title">Proton Mail</title><path
           fill="url(#logo-7-a)"
@@ -79,7 +79,7 @@
         height="36"
         fill="none"
         role="img"
-        class="logo icon-size-7 glyph-only"
+        class="logo fill-current align-middle inline-block w-7 h-7 glyph-only"
         aria-labelledby="logo-8-title"
         ><title id="logo-8-title">Proton Calendar</title><path
           fill="url(#logo-8-a)"
@@ -134,7 +134,7 @@
         height="36"
         fill="none"
         role="img"
-        class="logo icon-size-7 glyph-only"
+        class="logofill-current align-middle inline-block w-7 h-7 glyph-only"
         aria-labelledby="logo-9-title"
         ><title id="logo-9-title">Proton Drive</title><path
           fill="url(#logo-9-a)"
@@ -185,7 +185,7 @@
         height="36"
         fill="none"
         role="img"
-        class="logo icon-size-7 glyph-only"
+        class="logo fill-current align-middle inline-block w-7 h-7 glyph-only"
         aria-labelledby="logo-10-title"
         ><title id="logo-10-title">Proton VPN</title><path
           fill="url(#logo-10-a)"
@@ -236,7 +236,7 @@
         height="36"
         fill="none"
         role="img"
-        class="logo icon-size-7 glyph-only"
+        class="logo fill-current align-middle inline-block w-7 h-7 glyph-only"
         aria-labelledby="logo-11-title"
         ><title id="logo-11-title">Proton Pass</title><path
           fill="url(#logo-11-a)"
@@ -324,7 +324,7 @@
         height="36"
         fill="none"
         role="img"
-        class="logo icon-size-7 glyph-only"
+        class="logo fill-current align-middle inline-block w-7 h-7 glyph-only"
         aria-labelledby="logo-12-title"
         ><title id="logo-12-title">Proton Wallet</title><path
           d="M4.00397 27.1283C4.00397 28.76 5.32671 30.0827 6.95838 30.0827L29.0455 30.0827C30.6772 30.0827 31.9999 28.76 31.9999 27.1283V17.6742C31.9999 11.1475 26.709 5.85652 20.1823 5.85652H6.95838C5.3267 5.85652 4.00397 7.17926 4.00397 8.81094V18.1193L9.84007 18.1193C11.9446 18.1193 13.6511 19.9425 13.6511 22.1911C13.6511 24.4396 11.9446 26.2629 9.84007 26.2629H4.00397V27.1283Z"

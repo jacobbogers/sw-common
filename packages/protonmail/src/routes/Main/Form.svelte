@@ -105,10 +105,12 @@
           class="w-4 h-4 checkbox-fakecheck-img"
           role="img"
           focusable="false"
-          aria-hidden="true"><use xlink:href="#ic-checkmark"></use></svg
-        ></span
-      ></label
-    >
+          aria-hidden="true"
+        >
+          <use xlink:href="#ic-checkmark"> </use>
+        </svg>
+      </span>
+    </label>
     <div class="flex-1">
       <label for="staySignedIn" class="label flex flex-wrap items-center"
         >Keep me signed in</label
@@ -118,7 +120,7 @@
           href="https://proton.me/support/keep-me-signed-in"
           target="_blank"
           rel="noopener noreferrer nofollow"
-          class="color-inherit inline-block link-focus">Why?</a
+          class="text-inherit inline-block link-focus">Why?</a
         >
       </div>
     </div>
