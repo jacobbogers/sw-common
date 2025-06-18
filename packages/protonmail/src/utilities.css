@@ -10,15 +10,6 @@
     }
 
 
-
-
-    @media (min-width: 28.135em) {
-        .sm\:pb-4 {
-            padding-block-end: 1rem;
-        }
-    }
-
-
     @media (min-width: 28.135em) {
         .sm\:px-5 {
             padding-inline: 1.25rem;
@@ -81,16 +72,6 @@
         }
     }
 
-
-    .pb-0 {
-        padding-block-end: 0rem;
-    }
-
-    @media (min-width: 28.135em) {
-        .sm\:pb-4 {
-            padding-block-end: 1rem;
-        }
-    }
 
 
 
