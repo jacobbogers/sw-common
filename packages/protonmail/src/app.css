@@ -1,12 +1,19 @@
 @import "tailwindcss";
 @import './theme.css';
 @import './base.css';
-@import './utilities.css';
 @import './components.css';
 
 
 @theme {
     --breakpoint-xs: 28.135em;
+}
+
+@layer utilities {
+    @responsive {
+        .color-primary {
+            color: var(--primary);
+        }
+    }
 }
 
 @layer base, components, utilities;
