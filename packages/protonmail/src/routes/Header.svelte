@@ -1,5 +1,5 @@
 <header
-  class="sign-layout-main-header gap-1 sm:gap-4 px-6 py-3 lg:px-12 md:pt-5 md:pb-10 mb-2 md:mb-0"
+  class="sign-layout-main-header gap-1 xs:gap-4 px-6 py-3 lg:px-12 md:pt-5 md:pb-10 mb-2 md:mb-0"
 >
   <div class="inline-flex flex-nowrap shrink-0">
     <a
@@ -86,7 +86,7 @@
       style="--mr-custom: calc(var(--space-3) * -1);"
       ><svg
         viewBox="0 0 16 16"
-        class="w-4 h-4 fill-current align-middle mr-2 shrink-0 hidden sm:inline-block"
+        class="w-4 h-4 fill-current align-middle mr-2 shrink-0 hidden xs:inline-block"
         role="img"
         focusable="false"
         aria-hidden="true"><use xlink:href="#ic-globe"></use></svg

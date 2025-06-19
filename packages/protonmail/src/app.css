@@ -5,4 +5,8 @@
 @import './components.css';
 
 
+@theme {
+    --breakpoint-xs: 28.135em;
+}
+
 @layer base, components, utilities;

@@ -76,7 +76,7 @@
 
 :root {
     --1px: .0625rem;
-    --border-radius-sm: calc(.5 * var(--border-radius) * var(--1px));
+    --border-radius-xs: calc(.5 * var(--border-radius) * var(--1px));
     --border-radius-md: calc(var(--border-radius) * var(--1px));
     --border-radius-lg: calc(1.5 * var(--border-radius) * var(--1px));
     --border-radius-xl: calc(2 * var(--border-radius) * var(--1px));

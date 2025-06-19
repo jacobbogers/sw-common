@@ -1,7 +1,7 @@
-<div class="shrink-0 text-center px-4 pt-0 pb-0 sm:px-5 sm:pt-8 sm:pb-0">
+<div class="hrink-0 text-center px-4 pt-0 pb-0 xs:px-5 xs:pt-8 xs:pb-0">
   <div class="flex justify-center gap-4 flex-nowrap">
     <div
-      class="inline-block max-w-custom sm:max-w-auto"
+      class="inline-block max-w-custom xs:max-w-auto"
       title="Proton Mail"
       style="--max-w-custom: 3.125rem;"
     >
@@ -67,7 +67,7 @@
       >
     </div>
     <div
-      class="inline-block max-w-custom sm:max-w-auto"
+      class="inline-block max-w-custom xs:max-w-auto"
       title="Proton Calendar"
       style="--max-w-custom: 3.125rem;"
     >
@@ -122,7 +122,7 @@
       >
     </div>
     <div
-      class="inline-block max-w-custom sm:max-w-auto"
+      class="inline-block max-w-custom xs:max-w-auto"
       title="Proton Drive"
       style="--max-w-custom: 3.125rem;"
     >
@@ -173,7 +173,7 @@
       >
     </div>
     <div
-      class="inline-block max-w-custom sm:max-w-auto"
+      class="inline-block max-w-custom xs:max-w-auto"
       title="Proton VPN"
       style="--max-w-custom: 3.125rem;"
     >
@@ -224,7 +224,7 @@
       >
     </div>
     <div
-      class="inline-block max-w-custom sm:max-w-auto"
+      class="inline-block max-w-custom xs:max-w-auto"
       title="Proton Pass"
       style="--max-w-custom: 3.125rem;"
     >
@@ -312,7 +312,7 @@
       >
     </div>
     <div
-      class="inline-block max-w-custom sm:max-w-auto"
+      class="inline-block max-w-custom xs:max-w-auto"
       title="Proton Wallet"
       style="--max-w-custom: 3.125rem;"
     >
