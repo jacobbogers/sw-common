@@ -83,7 +83,7 @@
       data-testid="dropdown-button"
       type="button"
       aria-expanded="false"
-      style="--mr-custom: calc(var(--space-3) * -1);"
+      style="--mr-custom: calc(var(--spacing) * -3);"
       ><svg
         viewBox="0 0 16 16"
         class="w-4 h-4 fill-current align-middle mr-2 shrink-0 hidden xs:inline-block"
