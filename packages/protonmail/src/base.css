@@ -1,31 +1,4 @@
 @layer base {
-    body {
-        color: var(--text-norm);
-        line-height: 1.4285714286;
-        font-size: .875em;
-    }
-
-    a:hover,
-    a:focus {
-        color: var(--link-hover);
-        text-decoration: none;
-    }
-
-    a {
-        color: var(--link-norm);
-        text-decoration: underline;
-        -webkit-text-decoration-skip: ink;
-        text-decoration-skip-ink: auto;
-        cursor: pointer;
-    }
-
-    h1 {
-        display: block;
-        margin: 0;
-        font-size: 2.5714285714em;
-        font-weight: var(--font-weight-normal);
-    }
-
     :lang(en) {
         quotes: "\201c" "\201d" "\2018" "\2019";
     }
@@ -34,45 +7,23 @@
         quotes: "\201c" "\201d" "\2018" "\2019";
     }
 
-    article,
-    aside,
-    details,
-    dialog,
-    figure,
-    footer,
-    header,
-    main,
-    menu,
-    nav,
-    section {
-        display: block;
-    }
-
-    button,
-    progress {
+    button {
         border: 0;
     }
 
     label,
-    button,
-    input[type=submit],
-    input[type=button],
-    input[type=reset] {
+    button {
         cursor: pointer;
     }
 
     label,
     button,
-    input,
-    select {
+    input {
         color: currentcolor;
         vertical-align: middle;
     }
 
     input,
-    select,
-    textarea,
-    optgroup,
     button {
         background: #0000;
         border: 0;
@@ -87,7 +38,6 @@
 
     html,
     body,
-    blockquote,
     ul,
     ol,
     form,
@@ -108,14 +58,6 @@
         min-block-size: 100%;
     }
 
-
-    table,
-    img,
-    td,
-    blockquote,
-    code,
-    pre,
-    textarea,
     input,
     svg {
         block-size: auto;
@@ -184,25 +126,8 @@
         color: var(--selection-text-color);
     }
 
-    *,
-    *:before,
-    *:after {
-        box-sizing: inherit;
-    }
 
 
-
-
-    .ui-standard,
-    .ui-prominent {
-        background-color: var(--background-norm);
-        color: var(--text-norm);
-    }
-
-    body,
-    html {
-        block-size: 100%;
-    }
 
     @supports (scrollbar-width: auto) {
         html:not(.feature-scrollbars-off) * {

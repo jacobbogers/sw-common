@@ -1,5 +1,10 @@
 @layer components {
 
+    .ui-standard {
+        background-color: var(--background-norm);
+        color: var(--text-norm);
+    }
+
     .flex>*,
     .modal-close>*,
     .sm\:flex>*,
@@ -174,12 +179,6 @@
         cursor: pointer;
     }
 
-
-    .link:hover,
-    .link:focus {
-        color: var(--link-hover);
-        text-decoration: none;
-    }
 
     @media (min-width: 28.135em) {
         .sign-layout-main-header {

@@ -1,6 +1,4 @@
-:root,
-.ui-standard,
-.ui-prominent {
+:root {
     --link-norm: var(--optional-link-norm, var(--interaction-norm));
     --link-hover: var(--optional-link-hover, var(--interaction-norm-hover));
     --link-active: var(--optional-link-active, var(--interaction-norm-active));
@@ -76,7 +74,7 @@
 
 :root {
     --1px: .0625rem;
-    --border-radius-xs: calc(.5 * var(--border-radius) * var(--1px));
+    --border-radius-sm: calc(.5 * var(--border-radius) * var(--1px));
     --border-radius-md: calc(var(--border-radius) * var(--1px));
     --border-radius-lg: calc(1.5 * var(--border-radius) * var(--1px));
     --border-radius-xl: calc(2 * var(--border-radius) * var(--1px));
@@ -183,9 +181,7 @@
     --optional-text-promotion-bw-button: var(--text-invert);
 }
 
-:root,
-.ui-standard,
-.ui-prominent {
+:root {
     --signal-danger-hover: var(--signal-danger-major-1);
     --signal-danger-active: var(--signal-danger-major-2);
     --signal-warning-hover: var(--signal-warning-major-1);

@@ -131,7 +131,7 @@
     type="submit">Sign in</button
   >
   <div class="text-center mt-4">
-    New to Proton? <a class="link link-focus text-nowrap" href="/mail/signup"
+    New to Proton? <a class="link-focus text-nowrap" href="/mail/signup"
       >Create account</a
     >
   </div>
