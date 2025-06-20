@@ -33,7 +33,7 @@
         text-decoration-skip-ink: auto;
     }
 
-    .link:hover,
+    button.link:hover,
     .link:focus,
     a:hover,
     a:focus {

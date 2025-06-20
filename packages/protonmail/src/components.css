@@ -171,15 +171,6 @@
         border-radius: var(--border-radius-lg);
     }
 
-    .link {
-        color: var(--link-norm);
-        text-decoration: underline;
-        -webkit-text-decoration-skip: ink;
-        text-decoration-skip-ink: auto;
-        cursor: pointer;
-    }
-
-
     @media (min-width: 28.135em) {
         .sign-layout-main-header {
             display: grid;
