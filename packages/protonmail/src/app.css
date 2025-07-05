@@ -8,11 +8,18 @@
 }
 
 @layer utilities {
-    @responsive {
-        .color-primary {
-            color: var(--primary);
-        }
+    .color-primary {
+        color: var(--primary);
     }
+
+    .color-danger {
+        color: var(--signal-danger);
+    }
+
+    @responsive {}
+
+
+
 }
 
 @layer base {
@@ -39,6 +46,15 @@
     a:focus {
         color: var(--link-hover);
         text-decoration: none;
+    }
+}
+
+@layer utilities {
+    .input.error {
+        --focus-outline: var(--signal-danger);
+        --focus-ring:
+            color-mix(in srgb, var(--signal-danger) 20%, transparent);
+        border-color: var(--signal-danger);
     }
 }
 

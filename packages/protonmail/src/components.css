@@ -63,8 +63,6 @@
         --focus-outline: var(--interaction-norm-major-2);
     }
 
-
-
     .button-large {
         --padding-block: .5625em;
         --padding-inline: 1.1875em;
@@ -412,4 +410,7 @@
         border: 0;
         clip: rect(0 0 0 0);
     }
+
+        .my-rounded-lg {
+            border-radius: var(--border-radius-lg);     }
 }

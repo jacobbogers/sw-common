@@ -51,10 +51,10 @@
     >
     <div class="field-two-input-container relative">
       <div
-        class="input flex flex-nowrap items-stretch flex-1 relative"
+        class="input flex flex-nowrap items-stretch flex-1 relative error"
         data-testid="input-root"
       >
-        <div class="flex flex-wrap flex-1">
+        <div class="flex flex-wrap flex-1 error">
           <input
             autocomplete="current-password"
             autocapitalize="off"
@@ -91,6 +91,22 @@
       </div>
     </div>
     <div class="field-two-assist flex flex-nowrap items-start" id="id-5"></div>
+  </div>
+  <div
+    data-testid="login:error-block"
+    class="mb-4 bg-stone-100 w-full border-none pl-3 pr-4 py-3 gap-3 my-rounded-lg flex items-start flex-nowrap"
+  >
+    <div class="flex justify-start items-start shrink-0 pt-0.5">
+      <svg
+        viewBox="0 0 16 16"
+        class="w-4 h-4 color-danger fill-current shrink-0"
+        role="img"
+        focusable="false"
+        aria-hidden="true"
+        ><use xlink:href="#ic-exclamation-circle-filled"></use></svg
+      >
+    </div>
+    Incorrect login credentials. Please try again.
   </div>
   <div class="flex flex-wrap flex-row items-start">
     <label for="staySignedIn" class="checkbox-container relative mt-2 mr-2"
