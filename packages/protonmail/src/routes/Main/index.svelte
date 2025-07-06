@@ -6,7 +6,7 @@
 <div class="p-0 xs:px-6 flex flex-nowrap flex-col justify-between">
   <main>
     <div
-      class="w-full max-w-custom relative sign-layout pt-1 pb-6 xs:p-11 ui-standard px-6 mx-auto xs:shadow-lifted shadow-color-primary"
+      class="w-full max-w-custom relative sign-layout pt-1 pb-6 xs:p-11 ui-standard px-6 mx-auto sm:shadow-lifted shadow-color-primary"
       style="--max-w-custom: 30rem;"
     >
       <!-- label: sign in-->

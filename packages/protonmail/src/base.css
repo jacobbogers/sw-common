@@ -65,8 +65,6 @@
     }
 
     html {
-        font-family: var(--setting-font-family, var(--optional-font-family, 'InterVariable')), system-ui,
-            sans-serif;
         font-synthesis: none;
         font-weight: var(--font-weight-normal);
         font-style: normal;
@@ -77,21 +75,10 @@
         font-smooth: antialiased;
         /* stylelint-enable */
 
-        /* If the browser supports `@supports`, set Inter static if it doesn't support variable fonts*/
-        @supports not (font-variation-settings: normal) {
-            font-family: var(--setting-font-family, var(--optional-font-family, 'Inter')),
-                system-ui,
-                sans-serif;
-        }
 
-        /* If the browser supports `@supports`, set Inter variable if it supports variable fonts*/
-        @supports (font-variation-settings: normal) {
-            font-family: var(--setting-font-family, var(--optional-font-family, 'InterVariable')),
-                system-ui,
-                sans-serif;
-        }
     }
 
+    
     /* only reset button styles, if the browser can handle advance focus customizations */
     @supports selector(:focus-visible:has(a, b)) {
         .button {
