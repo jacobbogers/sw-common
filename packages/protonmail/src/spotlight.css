@@ -1,0 +1,14 @@
+.spotlight {
+    position: fixed;
+    z-index: 700;
+    min-inline-size: 10em;
+    max-inline-size: 25em;
+    transform: scale(1);
+    border-radius: var(--border-radius-md);
+    background-color: var(--background-norm);
+    box-shadow: var(--shadow-lifted);
+    border: 1px solid var(--border-norm);
+    text-align: start;
+    word-break: break-word;
+    animation: .15s ease-out both anime-spotlight-in;
+}
