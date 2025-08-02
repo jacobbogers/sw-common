@@ -1,8 +1,8 @@
 @import "tailwindcss";
-@import './theme.css';
-@import './base.css';
-@import './components.css';
-@import './spotlight.css';
+@import "@fontsource-variable/inter/index.css";
+@import './css/theme.css';
+@import './css/base.css';
+@import './css/components.css';
 
 @theme {
     --breakpoint-xs: 28.135em;
@@ -16,10 +16,6 @@
     .color-danger {
         color: var(--signal-danger);
     }
-
-    @responsive {}
-
-
 
 }
 
@@ -59,4 +55,4 @@
     }
 }
 
-@layer base, components, utilities;
+@layer theme, base, components, utilities;

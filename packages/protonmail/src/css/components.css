@@ -1,18 +1,18 @@
 @layer components {
 
     /* If the browser supports `@supports`, set Inter static if it doesn't support variable fonts*/
-        @supports not (font-variation-settings: normal) {
-            html {
-                font-family: system-ui, sans-serif;
-            }
+    @supports not (font-variation-settings: normal) {
+        html {
+            font-family: system-ui, sans-serif;
         }
-    
-        /* If the browser supports `@supports`, set Inter variable if it supports variable fonts*/
-        @supports (font-variation-settings: normal) {
-            html {
-                font-family: "InterVariable", sans-serif;
-            }
+    }
+
+    /* If the browser supports `@supports`, set Inter variable if it supports variable fonts*/
+    @supports (font-variation-settings: normal) {
+        html {
+            font-family: 'Inter Variable', sans-serif;
         }
+    }
 
     .ui-standard {
         background-color: var(--background-norm);
@@ -418,6 +418,7 @@
         clip: rect(0 0 0 0);
     }
 
-        .my-rounded-lg {
-            border-radius: var(--border-radius-lg);     }
+    .my-rounded-lg {
+        border-radius: var(--border-radius-lg);
+    }
 }

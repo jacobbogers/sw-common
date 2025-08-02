@@ -1,0 +1,33 @@
+@layer base {
+    html {
+        quotes: "\201c" "\201d" "\2018" "\2019";
+    }
+
+    html {
+        font-size: calc(var(--setting-font-size) * 7.1428571429%);
+    }
+
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        box-sizing: border-box;
+        overscroll-behavior: none;
+    }
+
+    html {
+        font-synthesis: none;
+        font-weight: var(--font-weight-normal);
+        font-style: normal;
+
+        /* stylelint-disable */
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        font-smooth: antialiased;
+        /* stylelint-enable */
+
+
+    }
+}

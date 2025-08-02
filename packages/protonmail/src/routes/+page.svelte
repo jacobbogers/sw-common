@@ -4,7 +4,6 @@
   import Main from "./Main/index.svelte";
   import VersionInfo from "./VersionInfo.svelte";
   import HelpBtn from "./HelpBtn.svelte";
-  import Spotlight from "./Spotlight.svelte";
 </script>
 
 <div
@@ -15,5 +14,4 @@
   <Footer />
   <HelpBtn />
   <VersionInfo />
-  <Spotlight />
 </div>

@@ -1,0 +1,73 @@
+@import './base/scroll-bars.css';
+@import './base/html.css';
+
+@layer base {
+    :lang(en) {
+        /*
+        "\201c" — left double quotation mark (“)
+        "\201d" — right double quotation mark (”)
+        "\2018" — left single quotation mark (‘)
+        "\2019" — right single quotation mark (’)
+        */
+        quotes: "\201c" "\201d" "\2018" "\2019";
+    }
+
+    button {
+        border: 0;
+    }
+
+    label,
+    button {
+        cursor: pointer;
+    }
+
+    label,
+    button,
+    input {
+        color: currentcolor;
+        vertical-align: middle;
+    }
+
+    input,
+    button {
+        background: #0000;
+        border: 0;
+        font: inherit;
+        color: inherit;
+        -webkit-appearance: none;
+        appearance: unset;
+    }
+ 
+
+    ul,
+    ol,
+    form,
+    input,
+    button,
+    figure {
+        margin: 0;
+        padding: 0;
+    }
+
+   
+
+    input,
+    svg {
+        block-size: auto;
+        max-inline-size: 100%;
+    }
+   
+    /* only reset button styles, if the browser can handle advance focus customizations */
+    @supports selector(:focus-visible:has(a, b)) {
+        .button {
+            outline: unset;
+        }
+    }
+ 
+
+    ::selection {
+        background-color: var(--selection-background-color);
+        color: var(--selection-text-color);
+    }
+
+}

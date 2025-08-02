@@ -1,0 +1,12 @@
+@layer base {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: var(--background-norm);
+        min-block-size: 100%;
+    }
+}
